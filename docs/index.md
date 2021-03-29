@@ -1,5 +1,3 @@
-# Konvertierung von Anführungszeichen für LibreOffice und OpenOffice
-
 ![Screenshot: "curly" menu](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/docs/Screenshots/Menu-ch.png)
 
 ## Merkmale
