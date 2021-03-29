@@ -1,6 +1,3 @@
-md ..\oxt\Legal
-copy ..\LICENSE ..\oxt\Legal\license-en.txt
-
 cd ..\..\curly\tools\help
 call convert.bat
 cd ..\..\..\curly-de-CH\tools

@@ -23,7 +23,7 @@
 ## Systemvoraussetzungen
 
 * __OpenOffice.org 3.x or Apache OpenOffice 4.x or LibreOffice 6.x__
-* __Java__ (OpenOffice needs it for macro execution)
+* __Java__  (JRE) passend zur Office-Installation
 
 
 ## Download und Installation
@@ -36,7 +36,7 @@
 
 * Optional kann man eine Toolbar andocken. Wer die Toolbar nicht braucht (weil sie z.B. nicht der Muttersprache entspricht), kann sie einfach schließen.
 
-* Falls im *Format*-Menü kein Untermenü erscheint, findet man es unter *Extras > Add-Ons*.
+* Falls im *Format* -Menü kein Untermenü erscheint, findet man es unter *Extras > Add-Ons* .
 
 
 ## Benutzung
