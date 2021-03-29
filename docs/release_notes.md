@@ -1,7 +1,7 @@
 ## Requirements
 
-* __OpenOffice.org 3.x or Apache OpenOffice 4.x or LibreOffice 6.x__
-* __Java__ (Office might need it for macro execution)
+* __OpenOffice.org 3.x or Apache OpenOffice 4.x or LibreOffice 6.x ( _not LibreOffice 7!_  )__
+* __Java__  (JRE) suitable for your Office installation
 
 ## Download and install
 
