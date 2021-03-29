@@ -38,6 +38,8 @@
 
 * Falls im *Format* -Menü kein Untermenü erscheint, findet man es unter *Extras > Add-Ons* .
 
+[Änderungshistorie](changelog)
+
 
 ## Benutzung
 

@@ -1,4 +1,4 @@
-[Projektseite](https://peter88213.github.io/curly-de-CH)
+[Homepage](index)
 
 ## Benutzungshinweise
 
