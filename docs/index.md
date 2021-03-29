@@ -22,7 +22,7 @@
 
 ## Systemvoraussetzungen
 
-* __OpenOffice.org 3.x oder Apache OpenOffice 4.x oder LibreOffice 6.x (  _nicht_  Libreoffice 7!)__
+* __OpenOffice.org 3.x oder Apache OpenOffice 4.x oder LibreOffice 6.x (  _nicht LibreOffice 7!_ )__
 * __Java__  (JRE) passend zur Office-Installation
 
 
