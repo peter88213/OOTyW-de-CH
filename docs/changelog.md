@@ -2,6 +2,11 @@
 
 ## Changelog
 
+### v3.2.0 Modification for LibreOffice 7
+
+Switch off AutoCorrect while replacing the quotes. Based on curly 3.2.0
+
+
 ### v3.1.2 Bugfix release
 
 Add missing StarBasic macros. Based on curly v3.1.1

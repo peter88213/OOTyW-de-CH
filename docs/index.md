@@ -20,9 +20,9 @@
 ![Screenshot: Show direct speech in OpenOffice Writer](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/docs/Screenshots/DirectSpeech-ch.png)
 
 
-## Systemvoraussetzungen
+## Voraussetzungen
 
-* __OpenOffice.org 3.x oder Apache OpenOffice 4.x oder LibreOffice 6.x (  _nicht LibreOffice 7!_ )__
+* __OpenOffice.org 3.x__  oder  __Apache OpenOffice 4.x__  oder  __LibreOffice ab Version 6__
 * __Java__  (JRE) passend zur Office-Installation
 
 

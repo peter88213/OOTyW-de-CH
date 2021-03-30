@@ -142,7 +142,7 @@ Dim ANewStr(5) As String
 AOldStr() = Array(Chr(160)+ChEnDash+ChClose,ChOpen+ChEnDash+Chr(160),Chr(160)+ChEllipsis+ChClose,ChOpen+ChEllipsis+Chr(160),Chr(160)+&quot;--&quot;+ChClose,ChOpen+&quot;--&quot;+Chr(160))
 AnewStr() = Array(&quot; &quot;+ChEnDash+ChClose,ChOpen+ChEnDash+&quot; &quot;,&quot; &quot;+ChEllipsis+ChClose,ChOpen+ChEllipsis+&quot; &quot;,&quot; --&quot;+ChClose,ChOpen+&quot;-- &quot;)
 
-common.sar(AOldStr,ANewStr,False)
+sar(AOldStr,ANewStr,False)
 
 End Sub
 
@@ -377,6 +377,19 @@ sub sar(AOldStr,ANewStr,regex)
 &apos; Regular expressions optional.
 &apos; ----------------------------------------------------------------------
 
+&apos; ---- Switch off AutoCorrect to make the replacement work on LibreOffice 7
+dim document   as object
+dim dispatcher as object
+document   = ThisComponent.CurrentController.Frame
+dispatcher = createUnoService("com.sun.star.frame.DispatchHelper&quot;)
+
+&apos; ---- AutoCorrect while typing = off
+dim args2(0) as new com.sun.star.beans.PropertyValue
+args2(0).Name = &quot;OnlineAutoFormat&quot;
+args2(0).Value = false
+
+dispatcher.executeDispatch(document, &quot;.uno:OnlineAutoFormat&quot;, &quot;&quot;, 0, args2())
+
 Dim I As Long
 Dim Doc As Object
 Dim Replace As Object
@@ -390,6 +403,14 @@ For I = 0 to UBound(AOldStr)
 	Replace.setReplaceString(ANewStr(I))
 	Doc.replaceAll(Replace)
 Next I
+
+&apos; ---- AutoCorrect while typing = on
+dim args4(0) as new com.sun.star.beans.PropertyValue
+args4(0).Name = &quot;OnlineAutoFormat&quot;
+args4(0).Value = true
+
+dispatcher.executeDispatch(document, &quot;.uno:OnlineAutoFormat&quot;, &quot;&quot;, 0, args4())
+
 
 End Sub
 
