@@ -8,8 +8,8 @@
 ### Office variants
 
 `curly_<language>-<version>.oxt` for **OpenOffice.org v3.x**
-`curly_<language>-A-<version>.oxt` for **Apache OpenOffice v4.x**
-`curly_<language>-L-<version>.oxt` for **LibreOffice v6.x**
+`curly_<language>-A-<version>.oxt` for **Apache OpenOffice v4+**
+`curly_<language>-L-<version>.oxt` for **LibreOffice v6+**
 
 * Download attached `oxt` file matching to your Office installation.
 
