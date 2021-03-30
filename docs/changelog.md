@@ -2,6 +2,10 @@
 
 ## Changelog
 
+### v3.2.1 Leave the AutoCorrect settings untouched
+
+Switching off AutoCorrect seemed to be unnecessary. However, the source of the troubles with v3.1.2 and LibreOffice 7 is unknown.
+
 ### v3.2.0 Modification for LibreOffice 7
 
 Switch off AutoCorrect while replacing the quotes. Based on curly 3.2.0
