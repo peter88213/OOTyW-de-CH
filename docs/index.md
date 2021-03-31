@@ -1,5 +1,10 @@
 ![Screenshot: "curly" menu](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/docs/Screenshots/Menu-ch.png)
 
+Die Autoformatierungsfunktion von Writer kann die "geraden" Anführungszeichen und Apostrophe der Schreibmaschinentastatur in typographische umwandeln. Allerdings funktioniert das nur für Absätze, denen die "Standard"-Formatvorlage zugewiesen ist, und für die einmal eingestellten Anführungszeichen. 
+
+Die "curly quotes"-Erweiterungen konvertieren Anführungszeichen, Apostrophe, Gedankenstriche und Ellipsen zwischen unterschiedlichen sprachabhängigen Stilen, und zwar unabhängig von der Dokument- oder Systemsprache. Sie können die typographischen Glyphen auch wieder zurück in den "Schreibmaschinenstil" konvertieren, falls gewünscht. Das funktioniert unabhängig vom eingestellten Absatzformat. 
+
+Sie können mehrere Sprachvarianten parallel installieren. Verwenden Sie das Austauschformat, um Anführungszeichen zwischen verschiedenen Sprachen umzuwandeln.
 
 ## Merkmale
 
