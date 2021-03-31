@@ -16,6 +16,11 @@ Switch off AutoCorrect while replacing the quotes. Based on curly 3.2.0
 Add missing StarBasic macros. Based on curly v3.1.1
 
 
+### v3.1.1 Service update
+
+Move the project to a central repository.
+
+
 ### v3.1.0 Provide help
 
 Add help to the user interface. Based on curly v3.1.0
