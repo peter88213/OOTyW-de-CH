@@ -10,6 +10,8 @@ Sie können mehrere Sprachvarianten parallel installieren. Verwenden Sie das Aus
 
 * _Smart quotes_-Makros konvertieren Prime (Minuten/Sekundenzeichen) der Schreibmaschinentastatur in landestypische Anführungszeichen.
 
+* Bei schweizerischen Texten kann zwischen Gänsefüßchen und Guillemets hin- und hergeschaltet werden.
+
 * _Suchen und ersetzen_-Makros für Ellipsen (Auslassungspunkte), Apostrophe und Gedankenstriche.
 
 * Die Rückkehr zum Schreibmaschinenstil ist möglich.
