@@ -1,4 +1,4 @@
-![Screenshot: "curly" menu](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/docs/Screenshots/Menu-ch.png)
+![Screenshot: "curly" menu](Screenshots/Menu-ch.png)
 
 Bei der Nachbearbeitung bestehender Texte kann die Autoformatierungsfunktion von Writer die "geraden" Anführungszeichen und Apostrophe der Schreibmaschinentastatur in typographische umwandeln. Allerdings funktioniert das nur für Absätze, denen die "Standard"-Absatzvorlage zugewiesen ist, und, abhängig von der Dokumentsprache, für die einmal eingestellten Anführungszeichen. 
 
@@ -29,7 +29,7 @@ Sie können mehrere Sprachvarianten parallel installieren. Verwenden Sie das Aus
 
 * Wörtliche Rede zeigen, indem alles ausgegraut wird, was nicht in Anführungszeichen gesetzt ist. 
 
-![Screenshot: Show direct speech in OpenOffice Writer](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/docs/Screenshots/DirectSpeech-ch.png)
+![Screenshot: Show direct speech in OpenOffice Writer](Screenshots/DirectSpeech-ch.png)
 
 
 ## Voraussetzungen
