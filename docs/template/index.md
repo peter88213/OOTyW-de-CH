@@ -40,9 +40,9 @@ Sie können mehrere Sprachvarianten parallel installieren. Verwenden Sie das Aus
 
 ## Download und Installation
 
-* [Variante für OpenOffice.org 3.x (version 3.2.1) herunterladen](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/curly_de-CH-3.2.1.oxt)
-* [Variante für Apache OpenOffice 4.x (version 3.2.1) herunterladen](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/curly_de-CH-A-3.2.1.oxt)
-* [Variante für LibreOffice 6.x (version 3.2.1) herunterladen](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/curly_de-CH-L-3.2.1.oxt)
+* [Variante für OpenOffice.org 3.x (version 0.99.0) herunterladen](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/curly_de-CH-0.99.0.oxt)
+* [Variante für Apache OpenOffice 4.x (version 0.99.0) herunterladen](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/curly_de-CH-A-0.99.0.oxt)
+* [Variante für LibreOffice 6.x (version 0.99.0) herunterladen](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/curly_de-CH-L-0.99.0.oxt)
 
 * Installation beim Download,  durch Doppelklick auf die heruntergeladene Datei oder über den OpenOffice/LibreOffice Extension Manager.
 
