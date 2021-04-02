@@ -40,11 +40,15 @@ Sie können mehrere Sprachvarianten parallel installieren. Verwenden Sie das Aus
 
 ## Download und Installation
 
-* [Variante für OpenOffice.org 3.x herunterladen (curly_de-CH-3.2.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/curly_de-CH-3.2.1.oxt)
-* [Variante für Apache OpenOffice 4.x herunterladen (curly_de-CH-A-3.2.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/curly_de-CH-A-3.2.1.oxt)
-* [Variante für LibreOffice 6.x herunterladen (curly_de-CH-L-3.2.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/curly_de-CH-L-3.2.1.oxt)
+Laden Sie die zu Ihrer Office-Installation passende Variante herunter:
 
-* Installation beim Download,  durch Doppelklick auf die heruntergeladene Datei oder über den OpenOffice/LibreOffice Extension Manager.
+[Variante für LibreOffice 6.x (curly_de-CH-L-3.2.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/curly_de-CH-L-3.2.1.oxt)
+
+[Variante für Apache OpenOffice 4.x (curly_de-CH-A-3.2.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/curly_de-CH-A-3.2.1.oxt)
+
+[Variante für OpenOffice.org 3.x (curly_de-CH-3.2.1.oxt)](https://raw.githubusercontent.com/peter88213/curly-de-CH/master/curly_de-CH-3.2.1.oxt)
+
+* Installation gleich beim Download,  durch Doppelklick auf die heruntergeladene Datei oder über den OpenOffice/LibreOffice Extension Manager.
 
 * Nach der Installation (und Office-Neustart) hat das *Format*-Menü ein Untermenü für jede installierte Sprachvariante.
 
