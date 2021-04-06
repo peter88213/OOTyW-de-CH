@@ -1,7 +1,7 @@
 REM Prepare a newly compiled version for commit
 REM Edit the version number before launching!
 
-set _version=3.2.1
+set _version=3.2.2
 
 REM Delete the old version ...
 del ..\*.oxt

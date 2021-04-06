@@ -2,6 +2,10 @@
 
 ## Changelog
 
+### v3.2.2 Make the help function os independent
+
+Change the HTML launch mechanism of the show_help macro.
+
 ### v3.2.1 Leave the AutoCorrect settings untouched
 
 Switching off AutoCorrect seemed to be unnecessary. However, the source of the troubles with v3.1.2 and LibreOffice 7 is unknown.
