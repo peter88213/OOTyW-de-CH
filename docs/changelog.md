@@ -5,6 +5,7 @@
 ### v3.2.2 Make the help function os independent
 
 Change the HTML launch mechanism of the show_help macro.
+Based on curly v3.2.0
 
 ### v3.2.1 Leave the AutoCorrect settings untouched
 
