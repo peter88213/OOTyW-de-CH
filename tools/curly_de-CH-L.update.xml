@@ -5,7 +5,7 @@
  xmlns:l="http://libreoffice.org/extensions/description/2011"
  xmlns:xlink="http://www.w3.org/1999/xlink" >
    <identifier value="org.peter88213.curly_de-CH" />
-   <version value="3.2.3" />
+   <version value="0.99.0" />
    <dependencies>
       <l:LibreOffice-minimal-version value="6.0" dep:name="LibreOffice 6.0 minimum, or more recent" />
    </dependencies>

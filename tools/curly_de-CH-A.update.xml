@@ -4,7 +4,7 @@
  xmlns:dep="http://openoffice.org/extensions/description/2006"
  xmlns:xlink="http://www.w3.org/1999/xlink" >
    <identifier value="org.peter88213.curly_de-CH" />
-   <version value="3.2.3" />
+   <version value="0.99.0" />
    <dependencies>
       <OpenOffice.org-minimal-version value="4.0" dep:name="Apache OpenOffice 4.0 minimum, or more recent" />
    </dependencies>
