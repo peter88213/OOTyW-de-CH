@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="curly_de-CH" basedir=".">
+	<property name="release" value="3.2.5" />
+	<property name="project-name" value="${ant.project.name}" />
+	<property name="release-name" value="${project-name}-${release}" />
+	<property name="release-name-L" value="${project-name}-L-${release}" />
+	<property name="release-name-A" value="${project-name}-A-${release}" />
+	
+	<property name="oxt" location="../oxt" />
+	<property name="docs" location="../docs" />
+	<property name="curly" location="../../curly/oxt" />
+	<property name="src" location="../../curly/src" />
+	<property name="build" location="../build" />
+	<property name="dist" location=".." />
+
+	<target name="build" description="Generate the extension">
+		
+		<delete>
+			<fileset dir="${dist}" includes="*.oxt" />
+		</delete>
+		
+		<!-- Generate the LibreOffice distribution -->
+		
+		<delete dir="${build}" />
+		<mkdir dir="${build}" />
+		<mkdir dir="${build}/${ant.project.name}" />
+
+		<copy todir="${build}"> 
+			<fileset dir="${oxt}" />
+		</copy>
+
+		<copy todir="${build}"> 
+			<fileset dir="${oxt}-lo" />
+		</copy>
+
+		<copy todir="${build}"> 
+			<fileset dir="${curly}" />
+		</copy>
+
+		<copy todir="${build}/${ant.project.name}"> 
+			<fileset dir="${src}" />
+		</copy>
+
+		<replace encoding="utf-8" file="${build}/description.xml" token="0.99.0" value="${release}" />
+
+		<zip destfile="${dist}/${release-name-L}.oxt" basedir="${build}" />
+
+		<copy file="./${ant.project.name}-L.update.xml" overwrite="True" todir="${dist}" />
+		<replace encoding="utf-8" file="${dist}/${ant.project.name}-L.update.xml" token="0.99.0" value="${release}" />
+
+		<!-- Generate the Apache OpenOffice distribution -->
+		
+		<delete dir="${build}" />
+		<mkdir dir="${build}" />
+		<mkdir dir="${build}/${ant.project.name}" />
+
+		<copy todir="${build}"> 
+			<fileset dir="${oxt}" />
+		</copy>
+
+		<copy todir="${build}"> 
+			<fileset dir="${oxt}-aoo" />
+		</copy>
+
+		<copy todir="${build}"> 
+			<fileset dir="${curly}" />
+		</copy>
+
+		<copy todir="${build}/${ant.project.name}"> 
+			<fileset dir="${src}" />
+		</copy>
+
+		<replace encoding="utf-8" file="${build}/description.xml" token="0.99.0" value="${release}" />
+
+		<zip destfile="${dist}/${release-name-A}.oxt" basedir="${build}" />
+
+		<copy file="./${ant.project.name}-A.update.xml" overwrite="True" todir="${dist}" />
+		<replace encoding="utf-8" file="${dist}/${ant.project.name}-A.update.xml" token="0.99.0" value="${release}" />
+
+		<!-- Generate the OpenOffice distribution -->
+		
+		<delete dir="${build}" />
+		<mkdir dir="${build}" />
+		<mkdir dir="${build}/${ant.project.name}" />
+
+		<copy todir="${build}"> 
+			<fileset dir="${oxt}" />
+		</copy>
+
+		<copy todir="${build}"> 
+			<fileset dir="${oxt}-ooo" />
+		</copy>
+
+		<copy todir="${build}"> 
+			<fileset dir="${curly}" />
+		</copy>
+
+		<copy todir="${build}/${ant.project.name}"> 
+			<fileset dir="${src}" />
+		</copy>
+
+		<replace encoding="utf-8" file="${build}/description.xml" token="0.99.0" value="${release}" />
+
+		<zip destfile="${dist}/${release-name}.oxt" basedir="${build}" />
+
+		<copy file="./${ant.project.name}.update.xml" overwrite="True" todir="${dist}" />
+		<replace encoding="utf-8" file="${dist}/${ant.project.name}.update.xml" token="0.99.0" value="${release}" />
+
+		<!-- Clean up -->
+			
+		<delete dir="${build}" />
+			
+		<!-- Update the download link -->
+			
+		<copy file="${docs}/template/index.md" overwrite="True" todir="${docs}" />
+		<replace encoding="utf-8" file="${docs}/index.md" token="0.99.0" value="${release}" />
+
+			
+	</target>
+
+</project>
